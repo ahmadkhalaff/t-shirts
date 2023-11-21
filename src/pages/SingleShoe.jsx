@@ -76,7 +76,7 @@ function SingleShoe() {
           No Record Found with this ID
         </p>
       )}
-      {success && <p className="successText">Shoe updated successfully</p>}
+      {success && <p className="successText">T-shirt updated successfully</p>}
       {!error && (
         <div className="_form_Parent">
           <img src={product?.image_url} alt="" style={{ height: "500px" }} />
@@ -125,16 +125,16 @@ function SingleShoe() {
             <div className="button_container">
               {editable ? (
                 <button className="_action_button" onClick={SaveEdit}>
-                  Save Shoe
+                  Save T-shirt
                 </button>
               ) : (
                 <button className="_action_button" onClick={handleEdit}>
-                  Edit Shoe
+                  Edit T-shirt
                 </button>
               )}
 
               <button className="_action_button" onClick={handleDelete}>
-                Delete Shoe
+                Delete T-shirt
               </button>
             </div>
           </div>
