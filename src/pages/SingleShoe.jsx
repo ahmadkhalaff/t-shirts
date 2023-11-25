@@ -55,7 +55,7 @@ function SingleShoe() {
         setLoading(false);
         setProduct(res.data);
         setEditable(false);
-        alert("Shoe deleted successfully");
+        alert("Shirt deleted successfully");
       })
       .catch((err) => {
         setLoading(false);
